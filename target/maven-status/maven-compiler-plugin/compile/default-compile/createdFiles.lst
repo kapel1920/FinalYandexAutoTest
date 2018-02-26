@@ -1,0 +1,8 @@
+pages\BasePage.class
+util\TestProperties.class
+steps\MarketSteps.class
+pages\MarketPage.class
+util\AllureListener.class
+steps\BaseSteps.class
+steps\MainSteps.class
+pages\MainPage.class

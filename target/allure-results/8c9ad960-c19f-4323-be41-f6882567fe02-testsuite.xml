@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517597507312" stop="1517597601839" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>MyRefactoringYandexTest</name>
+    <test-cases>
+        <test-case start="1517597507312" stop="1517597522218" status="passed">
+            <name>newYandexTestOne</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="9276@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517597522237" stop="1517597532241" status="passed">
+            <name>newYandexTestTwo</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="9276@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

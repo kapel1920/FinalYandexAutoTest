@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517597536763" stop="1517597601824" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>YandexAllureReportTest</name>
+    <test-cases>
+        <test-case start="1517597536763" stop="1517597549889" status="passed">
+            <name>testYandexTestOne</name>
+            <title>Яндекс Маркет 1ый сценарий</title>
+            <steps>
+                <step start="1517597536819" stop="1517597538956" status="passed">
+                    <name>stepTransferToYandex</name>
+                    <title>Осуществлен переход на страницу Яндекса</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597538957" stop="1517597541677" status="passed">
+                    <name>stepSelectMainMenu[Маркет]</name>
+                    <title>Выбран пунк меню Маркет</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597541678" stop="1517597543220" status="passed">
+                    <name>stepClickElectronika</name>
+                    <title>Выбрано меню Электроника</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597543220" stop="1517597547119" status="passed">
+                    <name>stepClickMenuTV</name>
+                    <title>Выбрано меню Телевизоры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547120" stop="1517597547246" status="passed">
+                    <name>stepFillFields[{Сумма=20000}]</name>
+                    <title>Заполняются поля: </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517597547121" stop="1517597547246" status="passed">
+                            <name>stepFillField[Сумма, 20000]</name>
+                            <title>Поле Сумма заполняется значенем 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517597547247" stop="1517597547368" status="passed">
+                    <name>stepClickSamsung</name>
+                    <title>Выбран чек бокс Samsung</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547368" stop="1517597547480" status="passed">
+                    <name>stepClickLG</name>
+                    <title>Выбран чек бокс LG</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547480" stop="1517597547580" status="passed">
+                    <name>stepButtonPrimenit</name>
+                    <title>Выполнено нажатие на кнопку Применить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547581" stop="1517597547627" status="passed">
+                    <name>stepCheckCountOfEliments</name>
+                    <title>Выполнена проверка Элиментов на форме = 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547628" stop="1517597547676" status="passed">
+                    <name>stepFoundFirstEliment</name>
+                    <title>Запомнили значение 1ого элимента</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547677" stop="1517597547777" status="passed">
+                    <name>stepInputFirstElimentToSearch[LG 43UJ634V]</name>
+                    <title>Вводим значение первого элимента в поисковую строку</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547778" stop="1517597547944" status="passed">
+                    <name>stepClickToSearch</name>
+                    <title>Нажатие на кнопку - Поиск</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597547944" stop="1517597549889" status="passed">
+                    <name>stepCheckText[LG 43UJ634V]</name>
+                    <title>Проверяем текстовку наденного элимента</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="9276@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517597549890" stop="1517597560500" status="passed">
+            <name>testYandexTestTwo</name>
+            <title>Яндекс Маркет 2ой сценарий</title>
+            <steps>
+                <step start="1517597549891" stop="1517597550578" status="passed">
+                    <name>stepTransferToYandex</name>
+                    <title>Осуществлен переход на страницу Яндекса</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597550578" stop="1517597551809" status="passed">
+                    <name>stepSelectMainMenu[Маркет]</name>
+                    <title>Выбран пунк меню Маркет</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597551809" stop="1517597553462" status="passed">
+                    <name>stepClickElectronika</name>
+                    <title>Выбрано меню Электроника</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597553463" stop="1517597555299" status="passed">
+                    <name>stepClickMenuHeadphones</name>
+                    <title>Нажатие на меню Наушники</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597555300" stop="1517597555466" status="passed">
+                    <name>stepFillFields[{Сумма=5000}]</name>
+                    <title>Заполняются поля: </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517597555300" stop="1517597555466" status="passed">
+                            <name>stepFillField[Сумма, 5000]</name>
+                            <title>Поле Сумма заполняется значенем 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517597555467" stop="1517597555568" status="passed">
+                    <name>stepClickBeats</name>
+                    <title>Выбран чек бокс Beats</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597555569" stop="1517597555663" status="passed">
+                    <name>stepButtonPrimenit</name>
+                    <title>Выполнено нажатие на кнопку Применить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597555664" stop="1517597555709" status="passed">
+                    <name>stepCheckCountOfHeadphonesEliments</name>
+                    <title>Выполнена проверка Элиментов на форме = 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597557709" stop="1517597557738" status="passed">
+                    <name>stepFoundFirstHeadphonesEliment</name>
+                    <title>Запомнили значение 1ого элимента</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597557739" stop="1517597558049" status="passed">
+                    <name>stepInputFirstElimentOfHeadphonesToSearch[Наушники Beats BeatsX Wireless]</name>
+                    <title>Вводим значение первого элимента в поисковую строку</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597558049" stop="1517597558179" status="passed">
+                    <name>stepClickToSearch</name>
+                    <title>Нажатие на кнопку - Поиск</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517597558179" stop="1517597560500" status="passed">
+                    <name>stepCheckTextOfHeadphones[Наушники Beats BeatsX Wireless]</name>
+                    <title>Проверяем текстовку наденного элимента</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="9276@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

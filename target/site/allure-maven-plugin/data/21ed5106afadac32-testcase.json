@@ -1,0 +1,242 @@
+{
+  "uid" : "21ed5106afadac32",
+  "name" : "testYandexTestTwo",
+  "title" : "Яндекс Маркет 2ой сценарий",
+  "time" : {
+    "start" : 1517597549890,
+    "stop" : 1517597560500,
+    "duration" : 10610
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f7c2dd9abb13222b",
+    "name" : "YandexAllureReportTest",
+    "title" : "Yandex allure report test"
+  },
+  "steps" : [ {
+    "name" : "stepTransferToYandex",
+    "title" : "Осуществлен переход на страницу Яндекса",
+    "time" : {
+      "start" : 1517597549891,
+      "stop" : 1517597550578,
+      "duration" : 687
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelectMainMenu[Маркет]",
+    "title" : "Выбран пунк меню Маркет",
+    "time" : {
+      "start" : 1517597550578,
+      "stop" : 1517597551809,
+      "duration" : 1231
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepClickElectronika",
+    "title" : "Выбрано меню Электроника",
+    "time" : {
+      "start" : 1517597551809,
+      "stop" : 1517597553462,
+      "duration" : 1653
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepClickMenuHeadphones",
+    "title" : "Нажатие на меню Наушники",
+    "time" : {
+      "start" : 1517597553463,
+      "stop" : 1517597555299,
+      "duration" : 1836
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepFillFields[{Сумма=5000}]",
+    "title" : "Заполняются поля: ",
+    "time" : {
+      "start" : 1517597555300,
+      "stop" : 1517597555466,
+      "duration" : 166
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Сумма, 5000]",
+      "title" : "Поле Сумма заполняется значенем 5000",
+      "time" : {
+        "start" : 1517597555300,
+        "stop" : 1517597555466,
+        "duration" : 166
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "stepClickBeats",
+    "title" : "Выбран чек бокс Beats",
+    "time" : {
+      "start" : 1517597555467,
+      "stop" : 1517597555568,
+      "duration" : 101
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepButtonPrimenit",
+    "title" : "Выполнено нажатие на кнопку Применить",
+    "time" : {
+      "start" : 1517597555569,
+      "stop" : 1517597555663,
+      "duration" : 94
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepCheckCountOfHeadphonesEliments",
+    "title" : "Выполнена проверка Элиментов на форме = 12",
+    "time" : {
+      "start" : 1517597555664,
+      "stop" : 1517597555709,
+      "duration" : 45
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepFoundFirstHeadphonesEliment",
+    "title" : "Запомнили значение 1ого элимента",
+    "time" : {
+      "start" : 1517597557709,
+      "stop" : 1517597557738,
+      "duration" : 29
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepInputFirstElimentOfHeadphonesToSearch[Наушники Beats BeatsX Wireless]",
+    "title" : "Вводим значение первого элимента в поисковую строку",
+    "time" : {
+      "start" : 1517597557739,
+      "stop" : 1517597558049,
+      "duration" : 310
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepClickToSearch",
+    "title" : "Нажатие на кнопку - Поиск",
+    "time" : {
+      "start" : 1517597558049,
+      "stop" : 1517597558179,
+      "duration" : 130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepCheckTextOfHeadphones[Наушники Beats BeatsX Wireless]",
+    "title" : "Проверяем текстовку наденного элимента",
+    "time" : {
+      "start" : 1517597558179,
+      "stop" : 1517597560500,
+      "duration" : 2321
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "9276@DESKTOP-DLBNCAD.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DLBNCAD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "YandexAllureReportTest"
+  } ],
+  "parameters" : [ ]
+}
